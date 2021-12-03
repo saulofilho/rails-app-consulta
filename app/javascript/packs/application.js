@@ -12,3 +12,6 @@ import  "../application.css";
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+import "stylesheets/application"
+
+console.log('Hello World from Webpacker')
