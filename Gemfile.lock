@@ -249,11 +249,11 @@ DEPENDENCIES
   sass-rails (>= 6)
   selenium-webdriver
   sidekiq (~> 6.1, >= 6.1.2)
-  simple_calendar (~> 2.3)
+  simple_calendar
   spring
   sqlite3 (~> 1.4)
   stripe
-  trix (~> 0.9.9)
+  trix
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)

@@ -60,12 +60,10 @@ gem 'sidekiq', '~> 6.1', '>= 6.1.2'
 gem 'name_of_person', '~> 1.1', '>= 1.1.1'
 
 # consulty specific
-gem 'simple_calendar', '~> 2.3'
-gem 'trix', '~> 0.9.9'
+gem 'simple_calendar'
+gem 'trix'
 gem 'stripe'
 
 group :development, :test do
   gem 'better_errors'
 end
-
-# tutorial https://www.youtube.com/watch?v=Tf8jK_UmgvM&list=PL01nNIgQ4uxNkDZNMON-TrzDVNIk3cOz4&index=64

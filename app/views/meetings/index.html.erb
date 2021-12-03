@@ -1,4 +1,15 @@
-<p id="notice"><%= notice %></p>
+<div class="container m-auto my-4">
+  <% unless current_user.meetings.any? %>
+    <%= render "meetings_cta" %>
+  <% else %>
+    <%= render "meetings_landing", meetings: @meetings %>
+  <% end %>
+</div>
+
+
+<%
+=begin%>
+ <p id="notice"><%= notice %></p>
 
 <h1>Meetings</h1>
 
@@ -30,4 +41,6 @@
 
 <br>
 
-<%= link_to 'New Meeting', new_meeting_path %>
+<%= link_to 'New Meeting', new_meeting_path %> 
+<%
+=end%>

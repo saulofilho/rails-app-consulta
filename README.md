@@ -22,3 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+gem install foreman
+
+tutorial <https://www.youtube.com/watch?v=Tf8jK_UmgvM&list=PL01nNIgQ4uxNkDZNMON-TrzDVNIk3cOz4&index=64>
