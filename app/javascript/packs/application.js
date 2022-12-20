@@ -7,11 +7,10 @@ import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
-import  "../application.css";
+import  "../stylesheets/application.css";
 
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
-import "stylesheets/application"
 
 console.log('Hello World from Webpacker')
